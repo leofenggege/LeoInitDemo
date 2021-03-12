@@ -1,6 +1,0 @@
-framework module Pods_LeoInitDemo_LeoInitDemoUITests {
-  umbrella header "Pods-LeoInitDemo-LeoInitDemoUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
