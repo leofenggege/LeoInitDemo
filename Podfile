@@ -6,25 +6,28 @@ target 'LeoInitDemo' do
   use_frameworks!
 
   # Pods for LeoInitDemo
+  
+  
+  pod 'ReactiveObjC', '3.1.1'
+  
+  pod 'AFNetworking’, ‘3.1.0’
+  pod 'YTKNetwork'
+  pod 'SDWebImage'
+  pod 'IQKeyboardManager'
+  pod 'Masonry'
+  pod 'MBProgressHUD'
+  
+  pod 'MJRefresh'
+  pod 'JXCategoryView'
+  pod 'JXPagingView/Pager'
+  
+  pod 'HBDNavigationBar'
+  pod 'LGGKit', '1.3.0'
+#    pod 'SVGAPlayer'
+  
 
   target 'LeoInitDemoTests' do
     inherit! :search_paths
-    pod 'AFNetworking’, ‘3.1.0’
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
   end
 
   target 'LeoInitDemoUITests' do

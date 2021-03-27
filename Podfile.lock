@@ -14,17 +14,64 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - HBDNavigationBar (1.8.0)
+  - IQKeyboardManager (6.5.6)
+  - JXCategoryView (1.5.8)
+  - JXPagingView/Pager (2.0.13)
+  - LGGKit (1.3.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.5.0)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - YTKNetwork (2.1.4):
+    - AFNetworking/NSURLSession (~> 3.0)
 
 DEPENDENCIES:
   - AFNetworking (= 3.1.0)
+  - HBDNavigationBar
+  - IQKeyboardManager
+  - JXCategoryView
+  - JXPagingView/Pager
+  - LGGKit (= 1.3.0)
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - ReactiveObjC (= 3.1.1)
+  - SDWebImage
+  - YTKNetwork
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - HBDNavigationBar
+    - IQKeyboardManager
+    - JXCategoryView
+    - JXPagingView
+    - LGGKit
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - ReactiveObjC
+    - SDWebImage
+    - YTKNetwork
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  HBDNavigationBar: 8a24d0348ad4371614569e3d015d46e41824b061
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  JXCategoryView: 778a620f76070d6598fd8d7239991b8da8326170
+  JXPagingView: 821ed274f09eaf2843a96c3a74e9d138e27d9730
+  LGGKit: a40a0a01f51668fed546fb9dfc00223b444c0509
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  YTKNetwork: 19be749c30f0512ada07180f4637b4b67bc8ddc2
 
-PODFILE CHECKSUM: 33bbc888d542db2e9f30fb15b1612d3b23649c09
+PODFILE CHECKSUM: 0485104a3148fc0ace961edc78545d3bb6703bf5
 
 COCOAPODS: 1.10.0

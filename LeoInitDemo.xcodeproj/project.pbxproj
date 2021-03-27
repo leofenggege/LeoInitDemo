@@ -10,15 +10,19 @@
 		3FAB0094B9A935322734B9C0 /* Pods_LeoInitDemo_LeoInitDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD09579004D40A742F74269 /* Pods_LeoInitDemo_LeoInitDemoUITests.framework */; };
 		877A6123CC88AC6CED554828 /* Pods_LeoInitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793BC8BEFFCF10D9C33DF455 /* Pods_LeoInitDemo.framework */; };
 		ACB4923107A5494FD98D7CE5 /* Pods_LeoInitDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A327271E9E9AE4B45CE17F /* Pods_LeoInitDemoTests.framework */; };
-		B31162F325FA274D0040B6D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B31162F225FA274D0040B6D3 /* AppDelegate.m */; };
-		B31162F625FA274D0040B6D3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B31162F525FA274D0040B6D3 /* SceneDelegate.m */; };
-		B31162F925FA274D0040B6D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31162F825FA274D0040B6D3 /* ViewController.m */; };
-		B31162FC25FA274D0040B6D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31162FA25FA274D0040B6D3 /* Main.storyboard */; };
+		B31162F325FA274D0040B6D3 /* LGGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B31162F225FA274D0040B6D3 /* LGGAppDelegate.m */; };
 		B31162FE25FA274D0040B6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31162FD25FA274D0040B6D3 /* Assets.xcassets */; };
 		B311630125FA274D0040B6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31162FF25FA274D0040B6D3 /* LaunchScreen.storyboard */; };
 		B311630425FA274D0040B6D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B311630325FA274D0040B6D3 /* main.m */; };
 		B311630E25FA274D0040B6D3 /* LeoInitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B311630D25FA274D0040B6D3 /* LeoInitDemoTests.m */; };
 		B311631925FA274D0040B6D3 /* LeoInitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B311631825FA274D0040B6D3 /* LeoInitDemoUITests.m */; };
+		B347FEB8260DDD8B009E68AB /* LGGBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B347FEB7260DDD8B009E68AB /* LGGBaseVC.m */; };
+		B347FEC2260DDEC9009E68AB /* LGGOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B347FEC1260DDEC9009E68AB /* LGGOneVC.m */; };
+		B347FECB260DDEDA009E68AB /* LGGTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B347FECA260DDEDA009E68AB /* LGGTwoVC.m */; };
+		B347FED1260DDEEC009E68AB /* LGGThreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B347FED0260DDEEC009E68AB /* LGGThreeVC.m */; };
+		B347FED7260DDEFD009E68AB /* LGGFourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B347FED6260DDEFD009E68AB /* LGGFourVC.m */; };
+		B3599F5325FF47EB00F61EE1 /* LGGRootTabbarContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = B3599F5225FF47EB00F61EE1 /* LGGRootTabbarContrller.m */; };
+		B3A9C53225FF442B0043359D /* LGGBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A9C53125FF442B0043359D /* LGGBaseApi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,13 +49,8 @@
 		2F3DEF0F6D4AD546E62BBC1B /* Pods-LeoInitDemo-LeoInitDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeoInitDemo-LeoInitDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-LeoInitDemo-LeoInitDemoUITests/Pods-LeoInitDemo-LeoInitDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		793BC8BEFFCF10D9C33DF455 /* Pods_LeoInitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeoInitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31162EE25FA274D0040B6D3 /* LeoInitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeoInitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B31162F125FA274D0040B6D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B31162F225FA274D0040B6D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B31162F425FA274D0040B6D3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		B31162F525FA274D0040B6D3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		B31162F725FA274D0040B6D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B31162F825FA274D0040B6D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B31162FB25FA274D0040B6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B31162F125FA274D0040B6D3 /* LGGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGAppDelegate.h; sourceTree = "<group>"; };
+		B31162F225FA274D0040B6D3 /* LGGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGAppDelegate.m; sourceTree = "<group>"; };
 		B31162FD25FA274D0040B6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B311630025FA274D0040B6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B311630225FA274D0040B6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +61,21 @@
 		B311631425FA274D0040B6D3 /* LeoInitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeoInitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B311631825FA274D0040B6D3 /* LeoInitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeoInitDemoUITests.m; sourceTree = "<group>"; };
 		B311631A25FA274D0040B6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B347FEB6260DDD8B009E68AB /* LGGBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGBaseVC.h; sourceTree = "<group>"; };
+		B347FEB7260DDD8B009E68AB /* LGGBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGBaseVC.m; sourceTree = "<group>"; };
+		B347FEC0260DDEC8009E68AB /* LGGOneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGOneVC.h; sourceTree = "<group>"; };
+		B347FEC1260DDEC9009E68AB /* LGGOneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGOneVC.m; sourceTree = "<group>"; };
+		B347FEC9260DDEDA009E68AB /* LGGTwoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGTwoVC.h; sourceTree = "<group>"; };
+		B347FECA260DDEDA009E68AB /* LGGTwoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGTwoVC.m; sourceTree = "<group>"; };
+		B347FECF260DDEEC009E68AB /* LGGThreeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGThreeVC.h; sourceTree = "<group>"; };
+		B347FED0260DDEEC009E68AB /* LGGThreeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGThreeVC.m; sourceTree = "<group>"; };
+		B347FED5260DDEFD009E68AB /* LGGFourVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGFourVC.h; sourceTree = "<group>"; };
+		B347FED6260DDEFD009E68AB /* LGGFourVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGFourVC.m; sourceTree = "<group>"; };
+		B3599F5125FF47EB00F61EE1 /* LGGRootTabbarContrller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGRootTabbarContrller.h; sourceTree = "<group>"; };
+		B3599F5225FF47EB00F61EE1 /* LGGRootTabbarContrller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGRootTabbarContrller.m; sourceTree = "<group>"; };
+		B3A9C51025FF417B0043359D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B3A9C53025FF442B0043359D /* LGGBaseApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGBaseApi.h; sourceTree = "<group>"; };
+		B3A9C53125FF442B0043359D /* LGGBaseApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGBaseApi.m; sourceTree = "<group>"; };
 		C606A7E2808604D529175450 /* Pods-LeoInitDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeoInitDemoTests.release.xcconfig"; path = "Target Support Files/Pods-LeoInitDemoTests/Pods-LeoInitDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		CADB8198ACDC7F1C1E8868E8 /* Pods-LeoInitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeoInitDemo.release.xcconfig"; path = "Target Support Files/Pods-LeoInitDemo/Pods-LeoInitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F419E564CD2CA1C9F8090860 /* Pods-LeoInitDemo-LeoInitDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeoInitDemo-LeoInitDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-LeoInitDemo-LeoInitDemoUITests/Pods-LeoInitDemo-LeoInitDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,13 +145,16 @@
 		B31162F025FA274D0040B6D3 /* LeoInitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B3599F5025FF46EB00F61EE1 /* Base */,
+				B3A9C49F25FEFD2C0043359D /* Network */,
+				B3A9C49E25FEFD150043359D /* Tool */,
 				B311632925FAF55A0040B6D3 /* Source */,
-				B31162F125FA274D0040B6D3 /* AppDelegate.h */,
-				B31162F225FA274D0040B6D3 /* AppDelegate.m */,
-				B31162F425FA274D0040B6D3 /* SceneDelegate.h */,
-				B31162F525FA274D0040B6D3 /* SceneDelegate.m */,
-				B31162F725FA274D0040B6D3 /* ViewController.h */,
-				B31162F825FA274D0040B6D3 /* ViewController.m */,
+				B3599F4625FF45B600F61EE1 /* Main */,
+				B31162F125FA274D0040B6D3 /* LGGAppDelegate.h */,
+				B31162F225FA274D0040B6D3 /* LGGAppDelegate.m */,
+				B3599F5125FF47EB00F61EE1 /* LGGRootTabbarContrller.h */,
+				B3599F5225FF47EB00F61EE1 /* LGGRootTabbarContrller.m */,
+				B3A9C51025FF417B0043359D /* PrefixHeader.pch */,
 				B311630225FA274D0040B6D3 /* Info.plist */,
 			);
 			path = LeoInitDemo;
@@ -164,12 +181,83 @@
 		B311632925FAF55A0040B6D3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				B31162FA25FA274D0040B6D3 /* Main.storyboard */,
 				B31162FD25FA274D0040B6D3 /* Assets.xcassets */,
 				B31162FF25FA274D0040B6D3 /* LaunchScreen.storyboard */,
 				B311630325FA274D0040B6D3 /* main.m */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		B347FEBC260DDE8D009E68AB /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				B347FEC0260DDEC8009E68AB /* LGGOneVC.h */,
+				B347FEC1260DDEC9009E68AB /* LGGOneVC.m */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		B347FEBD260DDE9B009E68AB /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				B347FEC9260DDEDA009E68AB /* LGGTwoVC.h */,
+				B347FECA260DDEDA009E68AB /* LGGTwoVC.m */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		B347FEBE260DDE9F009E68AB /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				B347FECF260DDEEC009E68AB /* LGGThreeVC.h */,
+				B347FED0260DDEEC009E68AB /* LGGThreeVC.m */,
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		B347FEBF260DDEA5009E68AB /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				B347FED5260DDEFD009E68AB /* LGGFourVC.h */,
+				B347FED6260DDEFD009E68AB /* LGGFourVC.m */,
+			);
+			path = 4;
+			sourceTree = "<group>";
+		};
+		B3599F4625FF45B600F61EE1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B347FEBC260DDE8D009E68AB /* 1 */,
+				B347FEBD260DDE9B009E68AB /* 2 */,
+				B347FEBE260DDE9F009E68AB /* 3 */,
+				B347FEBF260DDEA5009E68AB /* 4 */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B3599F5025FF46EB00F61EE1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B347FEB6260DDD8B009E68AB /* LGGBaseVC.h */,
+				B347FEB7260DDD8B009E68AB /* LGGBaseVC.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B3A9C49E25FEFD150043359D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		B3A9C49F25FEFD2C0043359D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B3A9C53025FF442B0043359D /* LGGBaseApi.h */,
+				B3A9C53125FF442B0043359D /* LGGBaseApi.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		BB4273B3BEB66731F1022B02 /* Pods */ = {
@@ -196,6 +284,7 @@
 				B31162EA25FA274D0040B6D3 /* Sources */,
 				B31162EB25FA274D0040B6D3 /* Frameworks */,
 				B31162EC25FA274D0040B6D3 /* Resources */,
+				2227E436101496AE331E3998 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,7 +303,6 @@
 				B311630525FA274D0040B6D3 /* Sources */,
 				B311630625FA274D0040B6D3 /* Frameworks */,
 				B311630725FA274D0040B6D3 /* Resources */,
-				1D917B3DBC90F7DACF6255E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +322,7 @@
 				B311631025FA274D0040B6D3 /* Sources */,
 				B311631125FA274D0040B6D3 /* Frameworks */,
 				B311631225FA274D0040B6D3 /* Resources */,
+				E3C564800F73F29CFE6405E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -293,7 +382,6 @@
 			files = (
 				B311630125FA274D0040B6D3 /* LaunchScreen.storyboard in Resources */,
 				B31162FE25FA274D0040B6D3 /* Assets.xcassets in Resources */,
-				B31162FC25FA274D0040B6D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,21 +424,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1D917B3DBC90F7DACF6255E8 /* [CP] Embed Pods Frameworks */ = {
+		2227E436101496AE331E3998 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LeoInitDemoTests/Pods-LeoInitDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LeoInitDemo/Pods-LeoInitDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LeoInitDemoTests/Pods-LeoInitDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LeoInitDemo/Pods-LeoInitDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeoInitDemoTests/Pods-LeoInitDemoTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeoInitDemo/Pods-LeoInitDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DF07889713E9F0E99841EF82 /* [CP] Check Pods Manifest.lock */ = {
@@ -373,6 +461,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C564800F73F29CFE6405E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeoInitDemo-LeoInitDemoUITests/Pods-LeoInitDemo-LeoInitDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeoInitDemo-LeoInitDemoUITests/Pods-LeoInitDemo-LeoInitDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeoInitDemo-LeoInitDemoUITests/Pods-LeoInitDemo-LeoInitDemoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F13DF126904011FA1B088CA0 /* [CP] Check Pods Manifest.lock */ = {
@@ -404,10 +509,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B31162F925FA274D0040B6D3 /* ViewController.m in Sources */,
-				B31162F325FA274D0040B6D3 /* AppDelegate.m in Sources */,
+				B347FECB260DDEDA009E68AB /* LGGTwoVC.m in Sources */,
+				B347FED7260DDEFD009E68AB /* LGGFourVC.m in Sources */,
+				B3A9C53225FF442B0043359D /* LGGBaseApi.m in Sources */,
+				B347FED1260DDEEC009E68AB /* LGGThreeVC.m in Sources */,
+				B31162F325FA274D0040B6D3 /* LGGAppDelegate.m in Sources */,
+				B347FEC2260DDEC9009E68AB /* LGGOneVC.m in Sources */,
+				B3599F5325FF47EB00F61EE1 /* LGGRootTabbarContrller.m in Sources */,
+				B347FEB8260DDD8B009E68AB /* LGGBaseVC.m in Sources */,
 				B311630425FA274D0040B6D3 /* main.m in Sources */,
-				B31162F625FA274D0040B6D3 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,14 +553,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B31162FA25FA274D0040B6D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B31162FB25FA274D0040B6D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B31162FF25FA274D0040B6D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -582,14 +684,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MJDPS6VG9P;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LeoInitDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LeoInitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunxian.LGGKit.LeoInitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -601,14 +706,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MJDPS6VG9P;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LeoInitDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LeoInitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunxian.LGGKit.LeoInitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
